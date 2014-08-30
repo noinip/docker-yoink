@@ -4,6 +4,8 @@ FILE=/root/.yoinkrc
 if [ -f $FILE ];
 then
    echo "File $FILE exists"
+   # Assuming you've got this configured so kick it off
+   python2.7 /opt/yoink/yoink.py
 else
    python2.7 /opt/yoink/yoink.py --recreate-yoinkrc
 fi
