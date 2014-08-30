@@ -30,6 +30,7 @@ RUN ls /opt/yoink
 
 VOLUME /root
 VOLUME /blackhole
+VOLUME /media
 
 
 # Add run.sh to execute during container startup
