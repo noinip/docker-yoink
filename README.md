@@ -3,7 +3,9 @@ docker-yoink
 
 Dockerfile for yoink: https://github.com/phracker/yoink
 
-Run it like: docker run -d -h myhost --name="yoink" -v path/to/config:/root -v path/to/watch/dir:/blackhole noinip/docker-yoink
+Run it like: docker run -d -h myhost --name="yoink" -v path/to/config:/root -v path/to/watch/dir:/blackhole pinion/docker-yoink
+
+Optionally you can set -v path/to/media:/media if you plan to set storage_dir in .yoinkrc
 
 After running you will have yoink installed and setup to run once an hour but you still need to edit the .yoinkrc file to put in your settings. Options are as follows (via https://github.com/phracker/yoink/blob/master/README.md)
 
@@ -18,3 +20,6 @@ Yoink settings are stored in ~/.yoinkrc and this file will be auto-generated on 
 - `track_by_index_number`: TRUE or FALSE. If true, will write all downloaded torrent IDs to ~/.yoink.db and use this as the primary mechanism for checking if a given torrent has already been yoinked.
 
 [Filter Configuration Information](http://git.io/5ZFi9A)
+
+
+Wow. Much tipping: DR5dCKF8m5x8VWMtofpGoH4ghjNZYywgTU
